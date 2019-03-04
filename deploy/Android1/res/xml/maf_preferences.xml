@@ -1,6 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:FileUtils="http://www.oracle.com/XSL/Transform/java/oracle.adfmf.common.util.FileUtils" xmlns:ora="http://www.oracle.com/XSL/Transform/java" xmlns:adfmf="http://schemas.android.com/apk/res/com.company.P4617">
-   <PreferenceCategory android:key="feature.com.oracle.e1.jdemf.login.Connection" android:title="@string/feature.com.oracle.e1.jdemf.login.Connection.viewcontrollerBundle.CONNECTION.label">
-      <oracle.adfmf.preferences.AdfMFPreferenceText android:key="feature.com.oracle.e1.jdemf.login.Connection.URL" android:title="@string/feature.com.oracle.e1.jdemf.login.Connection.URL.viewcontrollerBundle.URL.label" android:defaultValue=""/>
-   </PreferenceCategory>
-</PreferenceScreen>
