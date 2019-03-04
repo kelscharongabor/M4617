@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rim="http://www.blackberry.com/ns/widgets"
+    id="com.oracle.maf.sms"
+    version="0.1.0">
+    <name>SMS</name>
+    <description>MAF SMS Plugin</description>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="AdfmfSMS">
+                <param name="ios-package" value="AdfmfSMSAdaptor" />
+            </feature>
+        </config-file>
+    </platform>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+	    <feature name="AdfmfSMS">
+                <param name="android-package" value="oracle.adfmf.phonegap.AdfmfSMS" />
+    	    </feature>
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+        </config-file>
+    </platform>
+</plugin>

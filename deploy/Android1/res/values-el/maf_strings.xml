@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:FileUtils="http://www.oracle.com/XSL/Transform/java/oracle.adfmf.common.util.FileUtils" xmlns:ora="http://www.oracle.com/XSL/Transform/java">
+   <string name="app_name">P4617</string>
+   <string name="feature.com.oracle.e1.jdemf.login.Connection.viewcontrollerBundle.CONNECTION.label">Σύνδεση</string>
+   <string name="feature.com.oracle.e1.jdemf.login.Connection.URL.viewcontrollerBundle.URL.label">URL</string>
+</resources>
