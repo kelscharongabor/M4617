@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<adfmf:features xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adfmf="http://xmlns.oracle.com/adf/mf">
+  <adfmf:feature id="ABList" name="ABList">
+    <adfmf:content id="ABList.1">
+      <adfmf:amx file="ABList/ViewController-task-flow.xml#ViewController-task-flow">
+        <adfmf:includes>
+          <adfmf:include type="JavaScript" file="js/jdemfJavascript.js" id="i1"/>
+        </adfmf:includes>
+      </adfmf:amx>
+    </adfmf:content>
+  </adfmf:feature>
+  <adfmf:feature id="jdemf.example.EULA" name="EULA">
+    <adfmf:content id="jdemf.example.EULA.1">
+      <adfmf:amx file="jdemf.example.EULA/eula.amx"/>
+    </adfmf:content>
+  </adfmf:feature>
+</adfmf:features>

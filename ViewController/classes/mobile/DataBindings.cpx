@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application" version="12.1.3.12.39" id="DataBindings"
+             SeparateXMLFiles="false" Package="mobile" ClientType="Generic">
+  <pageMap>
+    <page path="/ablist.amx" usageId="mobile_ablistPageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="mobile_ablistPageDef" path="mobile.pageDefs.ablistPageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <dc id="P4617DC" path="application.P4617DC"/>
+  </dataControlUsages>
+</Application>

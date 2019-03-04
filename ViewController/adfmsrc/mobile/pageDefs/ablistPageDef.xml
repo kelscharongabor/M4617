@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.1.3.12.39" id="ablistPageDef"
+                Package="mobile.pageDefs">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <iterator Binds="root" RangeSize="25" DataControl="P4617DC" id="P4617DCIterator"/>
+    <accessorIterator MasterBinding="P4617DCIterator" Binds="p4617_W4617B_FormParent" RangeSize="25"
+                      DataControl="P4617DC" BeanClass="jdemf.example.p4617.P4617_W4617B_FormParent"
+                      id="p4617_W4617B_FormParentIterator"/>
+    <accessorIterator MasterBinding="p4617_W4617B_FormParentIterator" Binds="fs_P4617_W4617B" RangeSize="25"
+                      DataControl="P4617DC" BeanClass="jdemf.example.p4617.P4617_W4617B" id="fs_P4617_W4617BIterator"/>
+    <accessorIterator MasterBinding="fs_P4617_W4617BIterator" Binds="data" RangeSize="25" DataControl="P4617DC"
+                      BeanClass="jdemf.example.p4617.P4617_W4617B_FormData" id="dataIterator"/>
+    <accessorIterator MasterBinding="dataIterator" Binds="gridData" RangeSize="25" DataControl="P4617DC"
+                      BeanClass="jdemf.example.p4617.P4617_W4617B_GridData" id="gridDataIterator"/>
+    <accessorIterator MasterBinding="gridDataIterator" Binds="rowset" RangeSize="25" DataControl="P4617DC"
+                      BeanClass="jdemf.example.p4617.P4617_W4617B_GridRow" id="rowsetIterator"/>
+  </executables>
+  <bindings>
+    <tree IterBinding="rowsetIterator" id="rowset">
+      <nodeDefinition DefName="jdemf.example.p4617.P4617_W4617B_GridRow" Name="rowset0">
+        <AttrNames>
+        <Item Value="value"/>
+        </AttrNames>
+        <Accessors>
+          <Item Value="mnTask_14"/>
+          <Item Value="mnTrip_15"/>
+          <Item Value="SItemNumber_544"/>
+          <Item Value="mnQuantity_17"/>
+        </Accessors>
+      </nodeDefinition>
+      <nodeDefinition DefName="jdemf.example.FieldMobile">
+        <AttrNames>
+          <Item Value="value"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+  </bindings>
+</pageDefinition>
